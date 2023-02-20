@@ -1,0 +1,33 @@
+Last login: Sat Feb 18 22:41:56 on console
+nicocouwberghs@MacBook-Air-van-Morgan ~ % cd Desktop 
+nicocouwberghs@MacBook-Air-van-Morgan Desktop % ls
+Screenshot 2023-01-26 at 16.01.02.png	mijn-project-template
+Screenshot 2023-01-26 at 16.24.18.png	mijn-project-template.zip
+Screenshot 2023-01-26 at 16.31.13.png	opdracht-cmd-line
+Screenshot 2023-01-30 at 15.44.10.png	roadtrip-playlist
+Screenshot 2023-02-19 at 17.20.04.png	scripts
+Screenshot 2023-02-19 at 18.00.08.png	starten-met-git-nico-couwberghs
+Screenshot 2023-02-19 at 18.02.36.png	vueCLI
+Screenshots				webtest
+Shopping
+nicocouwberghs@MacBook-Air-van-Morgan Desktop % git init github-test
+Initialized empty Git repository in /Users/nicocouwberghs/Desktop/github-test/.git/
+nicocouwberghs@MacBook-Air-van-Morgan Desktop % cd github-test 
+nicocouwberghs@MacBook-Air-van-Morgan github-test % touch index.html
+nicocouwberghs@MacBook-Air-van-Morgan github-test % code .
+nicocouwberghs@MacBook-Air-van-Morgan github-test % git init -b main
+warning: re-init: ignored --initial-branch=main
+Reinitialized existing Git repository in /Users/nicocouwberghs/Desktop/github-test/.git/
+nicocouwberghs@MacBook-Air-van-Morgan github-test % git remote add origin git@github.com:nicoophetnet/github-test.git
+nicocouwberghs@MacBook-Air-van-Morgan github-test % git branch -M main
+nicocouwberghs@MacBook-Air-van-Morgan github-test % git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 411 bytes | 137.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:nicoophetnet/github-test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+nicocouwberghs@MacBook-Air-van-Morgan github-test % 
